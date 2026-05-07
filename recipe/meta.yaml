@@ -1,5 +1,5 @@
 {% set name = "dag-factory" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dag_factory-{{ version }}.tar.gz
-  sha256: 72a6cc128c59055e52e0f5c8cf903ed1666a67802f9e22be7dbe292610bb1c1d
+  sha256: da2e547c8eedeb7e156940e849faec5d8419ab661e48494e148b75dd2c95567a
 
 build:
   entry_points:
